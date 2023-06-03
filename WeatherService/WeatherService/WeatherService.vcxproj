@@ -128,11 +128,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="JsonService.cpp" />
-=======
     <ClCompile Include="include\src\pugixml.cpp" />
->>>>>>> feature-xml
+    <ClCompile Include="JsonService.cpp" />
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
     <ClCompile Include="XmlService.cpp" />

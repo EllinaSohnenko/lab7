@@ -1,12 +1,2 @@
-<<<<<<< HEAD
-﻿  JsonService.cpp
-  Weather.cpp
-  WeatherService.cpp
-=======
-﻿  pugixml.cpp
-  Weather.cpp
-  WeatherService.cpp
-  XmlService.cpp
->>>>>>> feature-xml
-  Создание кода...
+﻿  WeatherService.cpp
   WeatherService.vcxproj -> C:\Users\Администратор\Desktop\Проекты ВС\Черновики\Введение в профессию\7 лабораторная\WeatherService\x64\Debug\WeatherService.exe
