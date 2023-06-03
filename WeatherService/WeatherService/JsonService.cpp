@@ -1,0 +1,24 @@
+#include "JsonService.h"
+#include <nlohmann\json.hpp>
+#include <fstream>
+#include <iostream>
+using namespace std;
+using nlohmann::json;
+
+Weather JsonService::getWeather(std::string s) {
+    setlocale(LC_ALL, "Ru");
+    std::ifstream fin(s);
+    if (!fin)
+        throw exception("error");
+
+    json j;
+    j = json::parse(fin);
+    std::string city = j["name"]; //  Киров
+    double lon = j["coord"]["lon"]; // 49.6601
+    double lat = j["coord"]["lat"]; // 58.5966  
+    double temperature = j["main"]["temp"]; // 5.69
+    std::string weather = j["weather"][0]["description"]; // дождь
+    double windSpeed = j["wind"]["speed"]; // 4.27
+    int clouds = j["clouds"]["all"]; // 100
+    return Weather(temperature, weather, windSpeed, clouds, city, lon, lat);
+}
