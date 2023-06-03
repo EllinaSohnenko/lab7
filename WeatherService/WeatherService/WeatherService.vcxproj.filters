@@ -21,7 +21,14 @@
     <ClCompile Include="Weather.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="JsonService.cpp">
+=======
+    <ClCompile Include="XmlService.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="include\src\pugixml.cpp">
+>>>>>>> feature-xml
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +39,11 @@
     <ClInclude Include="Service.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="JsonService.h">
+=======
+    <ClInclude Include="XmlService.h">
+>>>>>>> feature-xml
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
