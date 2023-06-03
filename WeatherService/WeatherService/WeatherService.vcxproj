@@ -131,6 +131,7 @@
     <ClCompile Include="WeatherService.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
